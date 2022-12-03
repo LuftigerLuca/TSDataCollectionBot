@@ -1,0 +1,12 @@
+teamspeak:
+  host: "localhost"
+  query-port: 10011
+  query-user: "serveradmin"
+  query-password: "password"
+
+database:
+  host: "localhost"
+  port: 3306
+  database-name: "teamspeakdata"
+  user: "teamspeakdatauser"
+  password: "password"
