@@ -1,12 +1,16 @@
-teamspeak:
+bot:
+  name: "MyBot"
+
+teamSpeak:
   host: "localhost"
-  query-port: 10011
-  query-user: "serveradmin"
-  query-password: "password"
+  serverId: 1
+  queryPort: 10011
+  queryUsername: "serveradmin"
+  queryPassword: "password"
 
 database:
   host: "localhost"
   port: 3306
-  database-name: "teamspeakdata"
+  databaseName: "teamspeakdata"
   user: "teamspeakdatauser"
   password: "password"
